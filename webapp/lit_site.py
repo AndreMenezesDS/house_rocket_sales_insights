@@ -280,7 +280,7 @@ if __name__ == "__main__":
 
     st.header("Region Filter")
 
-    path = "kc_house_data.csv"
+    path = "webapp/kc_house_data.csv"
     df = get_data(path)
     data = add_columns(df)
 
