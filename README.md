@@ -3,7 +3,6 @@
 ![House Rocket Logo](img/house_rocket_logo.png "House Rocket Logo")
 
 
-
 # 1.0. DESCRIÇÃO
 
 ___
