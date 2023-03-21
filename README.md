@@ -166,9 +166,10 @@ Para abranger a maior parte das características das casas registradas no banco 
 A aplicação fica hospedada no link a seguir, com funcionamento 24/7, garantindo agilidade ao time de negócios.
 
 <div align="center">
+
     |         **Click no botão abaixo para visualizar o site**        |
     |:------------------------:|
-    |        [![image](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=Streamlit&logoColor=white&style=for-the-badge)](https://t.me/rossmann_predictions_bot)
+    |        [![image](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=Streamlit&logoColor=white&style=for-the-badge)](https://andremenezesds-house-rocket-sales-insight-webapplit-site-fmtmxh.streamlit.app/)  
 </div>
 
 # 7.0 Conclusões
