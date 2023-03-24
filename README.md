@@ -1,6 +1,10 @@
 # HOUSE ROCKET COMPANY - PROJETO DE INSIGHTS
 
-![House Rocket Logo](img/house_rocket_logo.png "House Rocket Logo")
+<div align="center">
+  
+  ![House Rocket Logo](img/house_rocket_logo.png "House Rocket Logo")
+  
+</div>
 
 
 # 1.0. DESCRIÇÃO
@@ -38,7 +42,11 @@ O conjunto de dados que representam o contexto está disponível na plataforma K
 
 Esse conjunto de dados contém casas vendidas entre Maio de 2014 e Maio de 2015. Serão estes os dados usados para o desenvolvimento das hipóteses de projeto.
 
-![Data Dimensions](img/data_dimensions.png "Data Dimensions")
+<div align="center">
+
+  ![Data Dimensions](img/data_dimensions.png "Data Dimensions")
+  
+</div>
 
 ## 3.2 Descrição dos Atributos
 
@@ -67,7 +75,11 @@ Esse conjunto de dados contém casas vendidas entre Maio de 2014 e Maio de 2015.
 
 ## 3.2.1 Tipos de Dados
 
-!['Tipos de Dados'](img/data_types.png "Tipos de Dados")
+<div align="center">
+
+  !['Tipos de Dados'](img/data_types.png "Tipos de Dados")
+  
+</div>
 
 Os dados do dataframe original compreendem majoritariamente 2 tipos númericos: int64 e float64. Nota-se que os dados nominais (Ex: Colunas 'Waterfront', 'view', 'condition' e 'grade') já estão contabilizadas após um processo de encoding, encaixando-se portanto dentro de uma das categorias numéricas citadas (int64). 
 
@@ -76,7 +88,11 @@ Os dados do dataframe original compreendem majoritariamente 2 tipos númericos: 
 
 A única exceção observada em relação aos tipos de dados do dataframe original é a coluna 'date', referente a data de registro do imóvel a venda. Originalmente, os dados contam como tipo 'object', necessitando portanto de alteração para o formato de data de acordo com o formato 'ano-mês-dia', conforme explicitado na figura a seguir:
 
-![Alteração de Dados](img/change_types.png "Alteração de Dados")
+<div align="center">
+
+  ![Alteração de Dados](img/change_types.png "Alteração de Dados")
+  
+</div>
 
 Tal formato para data foi adotado uma vez que os dados contidos nessa coluna compreendem o período entre Maio de 2014 e Maio de 2015, fazendo-se necessária a análise através da diferenciação das instâncias pelos seus respectivos meses e dias. Tal alteração não foi necessária para os tipos de dados contidos nas colunas 'yr_built' e 'yr_renovated' (Ano de construção e Ano de renovação, respectivamente), uma vez que basta a diferenciação pelo valor do ano indicado, o qual a formatação em tipo 'int64' satisfaz os requisitos necessários para análise.
 
@@ -165,9 +181,11 @@ Para abranger a maior parte das características das casas registradas no banco 
 A aplicação fica hospedada no link a seguir, com funcionamento 24/7, garantindo agilidade ao time de negócios.
 
 <div align="center">
-|         **Click no botão abaixo para visualizar o site**        |
-|:------------------------:|
-|        [![image](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=Streamlit&logoColor=white&style=for-the-badge)](https://andremenezesds-house-rocket-sales-insight-webapplit-site-fmtmxh.streamlit.app/)  |
+  
+  |         **Click no botão abaixo para visualizar o site**        |
+  |:------------------------:|
+  |        [![image](https://img.shields.io/badge/-Streamlit-FF4B4B?logo=Streamlit&logoColor=white&style=for-the-badge)](https://andremenezesds-house-rocket-sales-insight-webapplit-site-fmtmxh.streamlit.app/)  |
+  
 </div>
 
 # 7.0 Conclusões
