@@ -284,7 +284,7 @@ if __name__ == "__main__":
     df = get_data(path)
     data = add_columns(df)
 
-    url = "Zip_Codes.geojson"
+    url = "webapp/Zip_Codes.geojson"
     geofile = get_geofile(url)
 
     (
