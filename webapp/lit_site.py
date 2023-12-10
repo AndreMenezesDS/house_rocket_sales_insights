@@ -284,7 +284,7 @@ if __name__ == "__main__":
     df = get_data(path)
     data = add_columns(df)
 
-    url = "https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson"
+    url = "ZIP_Codes.geojson"
     geofile = get_geofile(url)
 
     (
