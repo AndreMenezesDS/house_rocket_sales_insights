@@ -29,9 +29,6 @@ De forma a direcionar as análises, o time de negócios deve responder a 3 pergu
 
 - A House Rocket deveria fazer uma reforma para aumentar o preço de venda? Quais seriam as sugestões de mudança? Qual o incremento no preço dado por cada opção de reforma?
 
-
-Referência do Problema de Negócio:[Os 5 Projetos de Data Science que farão o recrutador olhar para você](!https://medium.com/@meigarom/os-5-projetos-de-data-science-que-far%C3%A1-o-recrutador-olhar-para-voc%C3%AA-c32c67c17cc9)
-
 # 3.0. DESCRIÇÃO DE DADOS
 
 ___
@@ -102,12 +99,12 @@ ___
 
 As seguintes premissas foram consideradas para o projeto:
 
-  -Os valores iguais a zero em yr_renovated são casas que nunca foram reformadas.
-  -O valor igual a 33 na coluna bathroom foi considerada um erro e por isso foi delatada das análises
-  -A coluna price significa o preço que a casa foi / será comprada pela empresa House Rocket
-  -Valores duplicados em ID foram removidos e considerados somente a compra mais recente
-  -A localidade e a condição do imóvel foram características decisivas na compra ou não do imóvel
-  -A estação do ano foi a característica decisiva para a época da venda do imóvel
+  - Os valores iguais a zero em yr_renovated são casas que nunca foram reformadas.
+  - O valor igual a 33 na coluna bathroom foi considerada um erro e por isso foi delatada das análises
+  - A coluna price significa o preço que a casa foi / será comprada pela empresa House Rocket
+  - Valores duplicados em ID foram removidos e considerados somente a compra mais recente
+  - A localidade e a condição do imóvel foram características decisivas na compra ou não do imóvel
+  - A estação do ano foi a característica decisiva para a época da venda do imóvel
 
 # 5.0. ESTRATÉGIA DE SOLUÇÃO
 
@@ -115,16 +112,13 @@ ____
 
 As etapas para solucionar o problema de negócio seguem:
 
-  1.Coleta de dados via Kaggle
-  2.Entendimento de negócio
-  3.Tratamento de dados
-​   -Tranformação de variaveis
-​   -Limpeza
-​   -Entendimento
-  4.Exploração de dados
-  5.Responder problemas do negócio
-  6.Resultados para o negócio
-  7.Conclusão
+  1. Coleta de dados via Kaggle
+  2. Entendimento de negócio
+  3. Tratamento de dados (Transformação de Variáveis e Limpeza de Dados)
+  4. Exploração de dados
+  5. Responder problemas do negócio
+  6. Resultados para o negócio
+  7. Conclusão
 
  # 6.0. TRADUÇÃO PARA NEGÓCIO
  
