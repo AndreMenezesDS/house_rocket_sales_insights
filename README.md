@@ -21,7 +21,7 @@ ____
 
 O time de negócios irá trabalhar seguindo a estratégia de comprar boas casas em ótimas localizações com preços baixos e revendê-las posteriormente à preços mais altos. Quanto maior a diferença entre compra e venda, maior o lucro/receita gerado para a empresa
 
-De forma a direcionar as análises, o time de negócios deve responder a 3 perguntas base que servirão de parâmetro para a análise dos dados:
+De forma a direcionar as análises, o time de negócios deve responder a 2 perguntas base que servirão de parâmetro para a análise dos dados:
 
 - Quais casas o CEO da House Rocket deveria comprar e por qual preço de compra?
 
