@@ -155,7 +155,7 @@ Seguem os insights mais relevantes para o projeto:
 
 <div align="center">
 
-  ![h3](img/h3_porao.png "h3_porao)
+  ![h3](img/h3_porao.png "h3_porao")
   
 </div>
 
@@ -164,7 +164,7 @@ Seguem os insights mais relevantes para o projeto:
 
 <div align="center">
 
-  ![h5](img/h5-rating.png "h5_rating")
+  ![h5](img/h5_rating.png "h5_rating")
   
 </div>
 
@@ -173,7 +173,7 @@ Seguem os insights mais relevantes para o projeto:
 
 <div align="center">
 
-  ![h6](img/h6_renovacao.png "h6_renovacao)
+  ![h6](img/h6_renovacao.png "h6_renovacao")
   
 </div>
 
