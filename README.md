@@ -27,8 +27,6 @@ De forma a direcionar as análises, o time de negócios deve responder a 3 pergu
 
 - Uma vez a casa em posse da empresa, qual  melhor momento para vendê-las e qual seria o preço de venda?
 
-- A House Rocket deveria fazer uma reforma para aumentar o preço de venda? Quais seriam as sugestões de mudança? Qual o incremento no preço dado por cada opção de reforma?
-
 # 3.0. DESCRIÇÃO DE DADOS
 
 ___
