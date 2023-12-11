@@ -141,22 +141,84 @@ As etapas para solucionar o problema de negócio seguem:
 
 Seguem os insights mais relevantes para o projeto:
 
-Imóveis com Vista para água são mais caros.
-Verdadeiro: A vista para água eleva o preço do imóvel, sendo o parâmetro com maior correlação de influência com o preço de venda.
+* H1. Imóveis com Vista para água são mais caros.
+    _Verdadeiro_: A vista para água eleva o preço do imóvel, sendo o parâmetro com maior correlação de influência com o preço de venda.
 
-Imóveis antigos e em más condições são mais baratos.
-Falso: O preço médio dos imóveis são pouco alterados por estes fatores.
+<div align="center">
 
-Imóveis renovados são até 35% mais caros
-Verdadeiro: A renovação de imóveis influencia no preço médio dos imóveis. Notar que a data de renovação exerce pouca influência no valor do preço.
+  ![h1](img/h1_waterfront.png "h1_waterfront")
+  
+</div>
 
-Imóveis com mais banheiros são mais caros
-Falso: Não há uma corelação linear entre o preço de venda e o número de banheiros
+* H3. Imóveis com porão são mais caros.
+    _Verdadeiro_: O preço médio dos imóveis são consideravelmente maiores quando o imóvel possui porão.
 
-Crescimento do preço mês após mês em 2014 é de 10%.
-Falso: Observa-se um decaimento no somatório de preços (registros) da primavera ao inverno. A média de preços dos imóveis se mantém estável ao longo das estações do ano.
+<div align="center">
 
-## 6.2 Visualição da Aplicação em Produção (Model Deploy)
+  ![h3](img/h3_porao.png "h3_porao)
+  
+</div>
+
+* H5. Imóveis com boa avaliação arquitetônica ('grade' >= 7) são em média 50% mais caros que os demais.
+    _Verdadeiro_: A Avaliação influencia drasticamente no preço do imóvel, tornando mais rentável o investimento em imóveis com avaliação entre 0 e 6.
+
+<div align="center">
+
+  ![h5](img/h5-rating.png "h5_rating")
+  
+</div>
+
+* H6. Imóveis renovados são até 35% mais caros
+    _Verdadeiro_: A renovação de imóveis influencia no preço médio dos imóveis. Notar que a data de renovação exerce pouca influência no valor do preço.
+
+<div align="center">
+
+  ![h6](img/h6_renovacao.png "h6_renovacao)
+  
+</div>
+
+* H8 e H9. Crescimento do preço mês após mês em 2014 é de 10%.
+    _Falso_: Observa-se um decaimento no somatório do valor arrecadado em vendas (registros) da primavera ao inverno. A média de preços dos imóveis se mantém estável ao longo das estações do ano.
+    
+
+<div align="center">
+
+  ![h8_soma_vendas](img/h8_soma_vendas.png "h8_soma_vendas")
+  
+</div>
+
+<div align="center">
+
+  ![h9_media_vendas](img/h9_media_vendas.png "h9_media_vendas")
+  
+</div>
+
+## 6.2 Resultados Finais
+
+O resultado da seleção final para imóveis que atendem aos insights obtidos pela validação de hipóteses, fez-se a filtragem do dataset original **(21613 imóveis)** para as características:
+* Sem vista para água;
+* Sem porão;
+* Avaliação entre 0 e 6;
+* Imóveis não renovados;
+* Compra de Imóveis entre os meses de Outubro/2014 a Maio/2015
+
+Com isso, obtemos um dataset resultante de **832 imóveis** recomendados para compra. O mapa comparativo da localização desses imóveis presentes na base de dados segue:
+
+<div align="center">
+
+  ![not_buy_plot](img/not_buy_plot.png "not_buy_plot")
+  
+</div>
+
+<div align="center">
+
+  ![buy_plot](img/buy_plot.png "buy_plot")
+  
+</div>
+
+Dos imóveis recomendados para compra (837 entradas), obteve-se um valor médio de preço de imóvel de **U$246.000,00**. Considerando uma estimativa simples de 30% de lucro na revenda de imóveis com preço de venda abaixo desse valor médio, e lucro de 10% sobre imóveis com valor acima ao preço médio, totalizou-se uma estimativa de **U$38.092.369,00** de rentabilidade final sobre todos os ióveis analisados.
+
+## 6.3 Visualição da Aplicação em Produção (Model Deploy)
 
 De forma a permitir que os resultados testados sejam escaláveis para aplicação ao problema de negócio, optou-se por disponibilizar a visualização da aplicação através de um aplicativo web construído através da biblioteca python [Streamlit](!https://docs.streamlit.io/).
 A capacidade de modularização da aplicação criada permite que o solicitante do problema de negócio possa customizar a exploração banco de dados através da aplicação de filtros em tempo real, possibilitando a visualização rápida de insights que podem ser aplicados em ciclos posteriores de desenvolvimento para geração de valor à empresa, bem como servir de ferramenta visual para a validação das hipóteses formuladas a partir dos insights já criados.
